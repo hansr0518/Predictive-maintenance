@@ -18,7 +18,7 @@ import fastparquet as fp
 import s3fs
 from matplotlib import pyplot as plt
 ```
-Now, you can load parquet format file from s3 bucket.
+Now, you can load parquet format files from s3 bucket.
 
 # Usage
 This data set has so many sensors value: 626 columns. 
