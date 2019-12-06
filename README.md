@@ -46,5 +46,11 @@ df_e = df_sm3.iloc[255322:257322,]
 deviation = abs(df_s.mean())*1 - abs(df_e.mean())*1
 ```
 
+4. Chi-square test
+> Delete 85 columns
+```python
+for i in df_bool_list:
+    display(pd.crosstab(index=df[i], columns='% observations', normalize='columns'))
+```
 
 
