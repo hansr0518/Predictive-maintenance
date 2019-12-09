@@ -2,6 +2,11 @@
 time series sensor data analysis for predictive maintenance
 
 # Links
+scipy stats t-test
+> https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.ttest_rel.html
+
+pandas crosstab : chi-square test
+> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.crosstab.html
 
 # Installation
 The data is in S3 bucket, so install the below packages.
