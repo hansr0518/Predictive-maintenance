@@ -53,4 +53,9 @@ for i in df_bool_list:
     display(pd.crosstab(index=df[i], columns='% observations', normalize='columns'))
 ```
 
+5. t-test for the columns of float64 types
+```python
+stats.ttest_rel(to600, to_shutdown)
+```
+
 
